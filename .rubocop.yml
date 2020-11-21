@@ -19,3 +19,6 @@ Metrics/BlockLength:
   CountComments: false  # count full line comments?
   Exclude:
     - 'spec/**/*.rb'
+
+Style/Documentation:
+  Enabled: false
