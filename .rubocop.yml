@@ -1,0 +1,21 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+
+# Common configuration.
+AllCops:
+  RubyInterpreters:
+    - ruby
+    - macruby
+    - rake
+    - jruby
+    - rbx
+  Exclude:
+    - '.git/**/*'
+    - 'db/schema.rb'
+    - 'db/migrate/*.rb'
+
+Metrics/BlockLength:
+  CountComments: false  # count full line comments?
+  Exclude:
+    - 'spec/**/*.rb'
