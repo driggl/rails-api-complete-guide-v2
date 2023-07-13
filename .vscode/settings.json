@@ -1,0 +1,8 @@
+{
+  "window.zoomLevel": 3,
+  "editor.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "workbench.editor.titleScrollbarSizing": "default",
+  "workbench.editor.scrollToSwitchTabs": true
+}
